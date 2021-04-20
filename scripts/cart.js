@@ -1,5 +1,5 @@
 var objeto = []; var cart = []; var valorTotal = 0; var camposCart, camposCartLS = [];
-localStorage.removeItem('shop-cart')
+
 $(document).on('click', '.add-to-cart', function () {
     let cod = $(this).siblings('.cod').attr('value').split('x')
     let sizes = $(this).siblings('.size').attr('value').split('/')
